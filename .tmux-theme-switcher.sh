@@ -177,7 +177,7 @@ if [[ $# -ge 1 ]]; then
   theme="$1"
 else
   if command -v fzf &>/dev/null; then
-    theme=$(printf '%s\n' "${AVAILABLE[@]}" | fzf --prompt="theme> " --height=6 --reverse) || exit 0
+    theme=$(printf '%s\n' "${AVAILABLE[@]}" | fzf --prompt="theme> " --height=$((${#AVAILABLE[@]}+2)) --reverse) || exit 0
   else
     echo "Available themes:"
     for i in "${!AVAILABLE[@]}"; do
