@@ -415,6 +415,9 @@ set -g allow-passthrough on
 # display a message after toggling mouse support
 bind m run "cut -c3- '#{TMUX_CONF}' | sh -s _toggle_mouse" \; display 'mouse #{?#{mouse},on,off}'
 
+# switch theme with fzf (<prefix> + T)
+bind T display-popup -E "~/.tmux-theme-switcher.sh"
+
 # move status line to top
 set -g status-position top
 
