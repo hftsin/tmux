@@ -85,24 +85,24 @@ tmux_conf_24b_colour=auto
 #   - tmux_conf_theme_synchronized
 tmux_conf_theme=enabled
 
-# tokyo night theme
-tmux_conf_theme_colour_1="#1a1b26"    # bg dark
-tmux_conf_theme_colour_2="#292e42"    # bg highlight
-tmux_conf_theme_colour_3="#565f89"    # comment
-tmux_conf_theme_colour_4="#7aa2f7"    # blue
-tmux_conf_theme_colour_5="#e0af68"    # yellow
-tmux_conf_theme_colour_6="#16161e"    # bg darker
-tmux_conf_theme_colour_7="#c0caf5"    # fg
-tmux_conf_theme_colour_8="#16161e"    # bg darker
-tmux_conf_theme_colour_9="#bb9af7"    # purple
-tmux_conf_theme_colour_10="#ff007c"   # magenta
-tmux_conf_theme_colour_11="#9ece6a"   # green
-tmux_conf_theme_colour_12="#a9b1d6"   # fg dark
-tmux_conf_theme_colour_13="#c0caf5"   # fg
-tmux_conf_theme_colour_14="#16161e"   # bg darker
-tmux_conf_theme_colour_15="#1a1b26"   # bg dark
-tmux_conf_theme_colour_16="#ff9e64"   # orange
-tmux_conf_theme_colour_17="#7dcfff"   # cyan
+# material design theme
+tmux_conf_theme_colour_1="#263238"    # blue grey 900
+tmux_conf_theme_colour_2="#37474f"    # blue grey 800
+tmux_conf_theme_colour_3="#78909c"    # blue grey 400
+tmux_conf_theme_colour_4="#42a5f5"    # blue 400
+tmux_conf_theme_colour_5="#ffee58"    # yellow 400
+tmux_conf_theme_colour_6="#1c262b"    # darker bg
+tmux_conf_theme_colour_7="#eceff1"    # blue grey 50
+tmux_conf_theme_colour_8="#1c262b"    # darker bg
+tmux_conf_theme_colour_9="#ab47bc"    # purple 400
+tmux_conf_theme_colour_10="#ec407a"   # pink 400
+tmux_conf_theme_colour_11="#66bb6a"   # green 400
+tmux_conf_theme_colour_12="#b0bec5"   # blue grey 200
+tmux_conf_theme_colour_13="#eceff1"   # blue grey 50
+tmux_conf_theme_colour_14="#1c262b"   # darker bg
+tmux_conf_theme_colour_15="#263238"   # blue grey 900
+tmux_conf_theme_colour_16="#ff7043"   # deep orange 400
+tmux_conf_theme_colour_17="#26c6da"   # cyan 400
 
 # default theme (ansi)
 #tmux_conf_theme_colour_1="colour0"
